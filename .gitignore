@@ -1,0 +1,63 @@
+# OS files
+Thumbs.db
+.DS_Store
+ehthumbs.db
+
+
+# Built application files
+*.apk
+*.aab
+*.ap_
+
+# Files for the ART/Dalvik VM
+*.dex
+
+# Java class files
+*.class
+
+# Generated files
+/build/
+/app/build/
+
+# Local configuration file
+/local.properties
+
+# Log Files
+*.log
+
+# Android Studio Navigation editor files
+.navigation/
+
+# Android Studio captures folder
+captures/
+
+# External native build folder generated in Android Studio 2.2 and later
+.externalNativeBuild/
+.cxx/
+
+# Keystore files
+# IMPORTANT: Do not commit keystore files to public repositories.
+# These are used to sign your app and must be kept private.
+*.jks
+*.keystore
+
+# IDE files
+.idea/
+.gradle/
+*.iml
+*.iws
+
+# Keystore files
+*.jks
+*.keystore
+
+# Google services file (if you are using Firebase, add this to .gitignore and handle it securely)
+google-services.json
+
+# Crashlytics files
+com_crashlytics_export_strings.xml
+crashlytics.properties
+crashlytics-build.properties
+fabric.properties
+
+

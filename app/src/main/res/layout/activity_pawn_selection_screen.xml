@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:id="@+id/pawnScreen">
+
+    <ImageView
+        android:id="@+id/picture"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:contentDescription="Background Image"
+        android:src="@drawable/pawn_screen_background"
+        android:scaleType="fitEnd"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:padding="30dp"
+            android:text="Change Your Pawn To:"
+            android:textSize="45sp"
+            android:fontFamily="@font/roundo"
+            android:textColor="#ffd700"
+            android:textAlignment="center"
+            android:id="@+id/title"/>
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/title"
+            android:id="@+id/row1"
+            android:layout_gravity="center_horizontal">
+            <ImageView
+                android:layout_width="130dp"
+                android:layout_height="132dp"
+                android:src="@drawable/queen"
+                android:id="@+id/imageViewQueen"
+                android:onClick="queen"
+                android:contentDescription="Change to Queen"
+                android:layout_margin="20dp"/>
+            <ImageView
+                android:layout_width="130dp"
+                android:layout_height="130dp"
+                android:src="@drawable/rook"
+                android:id="@+id/imageViewRook"
+                android:onClick="rook"
+                android:contentDescription="Change to Rook"
+                android:layout_toEndOf="@+id/imageViewQueen"
+                android:layout_margin="20dp"
+                />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/row1"
+            android:layout_gravity="center">
+            <ImageView
+                android:layout_width="130dp"
+                android:layout_height="130dp"
+                android:src="@drawable/knight"
+                android:onClick="knight"
+                android:contentDescription="Change to Knight"
+                android:id="@+id/imageViewKnight"
+                android:layout_margin="20dp"/>
+            <ImageView
+                android:layout_width="130dp"
+                android:layout_height="130dp"
+                android:src="@drawable/bishop"
+                android:id="@+id/imageViewBishop"
+                android:onClick="bishop"
+                android:contentDescription="Change to Bishop"
+                android:layout_toEndOf="@+id/imageViewKnight"
+                android:layout_margin="20dp"
+                />
+        </RelativeLayout>
+        </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>

@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <ImageView
+        android:id="@+id/picture"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/mainbackground"
+        android:scaleType="centerCrop"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:orientation="vertical">
+
+            <GridLayout
+                android:id="@+id/grid"
+                android:layout_width="600dp"
+                android:layout_height="600dp"
+                android:layout_gravity="center"
+                android:layout_margin="20dp"
+                android:columnCount="8"
+                android:rowCount="8" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="20dp"
+                android:layout_gravity="center">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Turn:"
+                    android:fontFamily="@font/roundo"
+                    android:textColor="#ffffff"
+                    android:textSize="40sp"
+                    android:layout_marginStart="10dp"
+                    android:layout_gravity="center_vertical" />
+
+                <ImageView
+                    android:layout_width="90dp"
+                    android:layout_height="90dp"
+                    android:src="@drawable/kwwu"
+                    android:layout_marginStart="10dp"
+                    android:id="@+id/turn" />
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:onClick="toSecond"
+                    android:backgroundTint="#158F96"
+                    android:text="Opening Screen"
+                    android:fontFamily="@font/roundo"
+                    android:textSize="15sp"
+                    android:layout_marginStart="10dp"
+                    app:cornerRadius="5dp" />
+
+
+
+            </LinearLayout>
+            <Button
+                android:layout_width="120dp"
+                android:layout_height="50dp"
+                android:layout_gravity="center"
+                android:onClick="reset"
+                android:backgroundTint="#158F96"
+                android:text="Reset"
+                android:fontFamily="@font/roundo"
+                android:textSize="20sp"
+                android:layout_margin="20dp"
+                app:cornerRadius="5dp" />
+
+        </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>
