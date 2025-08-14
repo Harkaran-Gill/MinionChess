@@ -1,7 +1,7 @@
 # Minion Chess
 A fun, fan-made chess game for Android where the classic pieces are replaced by characters from the Despicable Me franchise. This project was created for personal and educational purposes to practice Android development.
 
-![alttext](https://github.com/Harkaran-Gill/MinionChess/blob/main/READMEImages/OpeningScreen)
+![alttext](https://github.com/Harkaran-Gill/MinionChess/blob/main/READMEImages/OpeningScreen.png)
 
 ### Disclaimer
 This is a fan-made project created for personal, non-commercial use only. It is not affiliated with, endorsed by, or sponsored by Illumination, Universal Pictures, or any of their affiliates or subsidiaries.
@@ -12,7 +12,7 @@ The "Minions" characters, names, and related indicia are trademarks of and © Un
 Follow these instructions to get a copy of the project up and running on your local machine for development and testing purposes.
 
 ### Prerequisites
-- Android Studio (latest stable version recommended).
+-  <a href="https://developer.android.com/studio" target="_blank">Android Studio</a> (latest stable version recommended).
 - A physical Android device or an Android Emulator set up. 
 (Medium Tablet is recommended device/emulator)
 - Git installed on your machine.
