@@ -1,5 +1,5 @@
 # Minion Chess
-A fun, fan-made chess game for Android where the classic pieces are replaced by characters from the Despicable Me franchise. This project was created for personal and educational purposes to practice Android development.
+A fun, fan-made chess game for Android where the classic pieces are replaced by characters from the Despicable Me franchise. This project was created for personal and educational purposes to practice Android development. This was my Grade-12 Final project for Computer Science.
 
 ![alttext](https://github.com/Harkaran-Gill/MinionChess/blob/main/READMEImages/OpeningScreen.png)
 
@@ -42,6 +42,8 @@ Wait for the Gradle sync to complete successfully. You can monitor its progress 
 - Once the project is synced, select an available device (either a connected physical device or a running emulator) from the dropdown menu in the toolbar.
 
 - Click the Run 'app' button (the green play icon ▶) or press Shift + F10 to build and run the application.
+  
+- I recommend to use the 'Medium Tablet' as the virtual emulator since that game was designed with that particular screen size.
 
 ## Built With
 - Java - The primary programming language for the app.
